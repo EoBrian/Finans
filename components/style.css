@@ -152,7 +152,7 @@
     width: 50%;
 }
 
-.container .box h2 {
+.container h2 {
     font-size: 1.5em;
     line-height: 2em;
 }
@@ -168,20 +168,36 @@
 
 /*columns-container area*/
 .columns {
-    margin: 0 80px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    padding-bottom: 30px;
     border-bottom: 2px solid #ccc;
 }
 
 .columns .column {
     width: 30%;
-    margin: 0 auto;
+    margin-right: auto;
+    text-align: justify;
     display: flex;
     flex-direction: column-reverse;
 }
 
 .columns .column img {
     width: 100%;
+}
+
+
+/*footer area*/
+.footer {
+    padding:20px 80px;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer ul a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: #467cf1;
 }
