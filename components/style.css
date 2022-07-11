@@ -148,11 +148,7 @@
     width: 90%;
 }
 
-.container .box .text{
-    width: 50%;
-}
-
-.container .box .image {
+.container .box .text, .container .box .image{
     width: 50%;
 }
 
@@ -170,5 +166,22 @@
     margin-top: 10px;
 }
 
-/*column-container area*/
+/*columns-container area*/
+.columns {
+    margin: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
 
+.columns .column {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.columns .column img {
+    width: 100%;
+}
