@@ -201,3 +201,20 @@
     padding: 10px;
     color: #467cf1;
 }
+
+/*responsive*/
+@media screen and (max-width: 900px) {
+    .menu .banner {
+        visibility: hidden;
+    }
+
+    .w-100 {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .columns .column {
+        width: 100%;
+    }
+}
