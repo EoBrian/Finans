@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.clear {
+    clear: both;
+}
+
+.white {
+    color: #fff;
+    margin-bottom: 20px;
+}
